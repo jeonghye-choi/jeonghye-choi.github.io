@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/jeonghye-choi/jeonghye-choi.github.io/issues"
   },
+  "homepage" : "https://jeonghye-choi.github.io/jeonghye-choi.github.io/",
   "scripts": {
     "start": "gatsby develop",
     "develop": "gatsby develop",

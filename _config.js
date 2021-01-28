@@ -1,6 +1,6 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `정혜 블로그`,                           // (* Required)
+  title: `성장을 그리는 정혜`,                           // (* Required)
   description: `공부하고 생각한 것을 적는 공간입니다.`,          // (* Required)
   author: `Jeonghye Choi`,                         // (* Required)
   language: 'ko-KR',                        // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
@@ -14,10 +14,10 @@ module.exports = {
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: '',
-  name: 'Jeonghye',
-  company: '',
-  location: 'Korea',
+  comment: '어제보다 더 나은 오늘을 위해 공부하는 대학생',
+  name: 'Jeonghye Choi',
+  company: 'ⓒ젠묘',
+  location: 'Korea.Seoul',
   email: 'ppllhm.0@gmail.com',
   website: 'https://jeonghye-choi.github.io',           // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
