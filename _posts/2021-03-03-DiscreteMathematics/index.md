@@ -53,63 +53,64 @@ keywords:
 
 
 ### Pure Mathematics
-1. **Quantity - Arithmetic(산술)**
+
+#### 1. **Quantity - Arithmetic(산술)**
     
-    - Natural Numbers(자연수): N
-    
-    - Integers(정수): Z
-    
-    - Rational Numbers(유리수): Q
-    
-    - Real Numbers(실수): R
-    
-    - Complex Numbers(복소수)
+- Natural Numbers(자연수): N
 
-    > Q2. What is symbol for the Natural Numbers? - N
+- Integers(정수): Z
 
+- Rational Numbers(유리수): Q
 
-2. 🌟 **Structure - Algebra(대수학)**
+- Real Numbers(실수): R
 
-    => 이산수학의 Main Contents
+- Complex Numbers(복소수)
 
-    代(대신하다 대) 1, 2, ... , x, y, z
-
-    - Combinatorics(조합론)
-
-        - 순열, 조합
-    
-    - Number Theory(수론)
-
-    - Group Theory(군론)
-
-    - Graph Theory(그래프 이론)
-
-    - Order Theory(순서론)
-
-3. **Space - Geometry(기하학)**
-
-    - Trigonometry(삼각법/삼각함수)
-
-    - Differential Geometry(미분기하학)
-
-    - Topology(위상수학)
-
-    - Fractal Geometry(프랙탈 기하학)
+> #### Q2. What is symbol for the Natural Numbers? - N
 
 
-4. **Change - Analysis(해석학)**
+#### 2. 🌟 **Structure - Algebra(대수학)**
 
-    변화를 다루는 것
+=> 이산수학의 Main Contents
 
-    - Calculus(미적분학)
+代(대신하다 대) 1, 2, ... , x, y, z
 
-    - Vector Calculus(벡터 미적분학)
+- Combinatorics(조합론)
 
-    - Differential Equations(미분방정식)
+    - 순열, 조합
 
-    - Dynamical System(동역학계)
+- Number Theory(수론)
 
-    - Chaos Theory(혼돈이론)
+- Group Theory(군론)
+
+- Graph Theory(그래프 이론)
+
+- Order Theory(순서론)
+
+#### 3. **Space - Geometry(기하학)**
+
+- Trigonometry(삼각법/삼각함수)
+
+- Differential Geometry(미분기하학)
+
+- Topology(위상수학)
+
+- Fractal Geometry(프랙탈 기하학)
+
+
+#### 4. **Change - Analysis(해석학)**
+
+변화를 다루는 것
+
+- Calculus(미적분학)
+
+- Vector Calculus(벡터 미적분학)
+
+- Differential Equations(미분방정식)
+
+- Dynamical System(동역학계)
+
+- Chaos Theory(혼돈이론)
 
 
 ### Applied Mathematics
@@ -148,7 +149,7 @@ keywords:
 
 이산수학은 전산학의 기초가 되는데, 이것은 컴퓨터에서 다루는 자료형이 이산적이라는 것에서 기안한다. 이산수학에서 나온 개념과 기호는 컴퓨터알고리즘과 프로그래밍 언어의 문제나 대상들을 연구하는 데 유용하다.
 
-> Q3. 이산수학을 영어로? - Discrete Mathematics
+> #### Q3. 이산수학을 영어로? - Discrete Mathematics
 
 ### 이산수학의 주제
 
