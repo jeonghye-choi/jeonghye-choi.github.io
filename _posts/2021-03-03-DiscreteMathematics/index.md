@@ -1,5 +1,5 @@
 ---
-title: Discrete Mathematics(이산수학) Intro
+title: Discrete Mathematics Intro (이산수학)
 date: 2021-03-03
 tags:
   - 이산수학
