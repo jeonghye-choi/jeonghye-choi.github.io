@@ -1,5 +1,5 @@
 ---
-title: Discret Mathematics(이산수학) Intro
+title: Discrete Mathematics(이산수학) Intro
 date: 2021-03-03
 tags:
   - 이산수학
@@ -10,7 +10,7 @@ keywords:
 
 # Intro
 
-## Category
+## 🌀 Category
 
 - [Principle of Counting]()
 
@@ -33,7 +33,7 @@ keywords:
 
 <br/>
 
-## Mathematics
+## 🌀 Mathematics
 
 ### Foundation & Philosophy
 
@@ -64,7 +64,7 @@ keywords:
     > Q2. What is symbol for the Natural Numbers?
 
 
-2. (별) **Structure - Algebra(대수학)**
+2. 🌟 **Structure - Algebra(대수학)**
 
     이산수학의 Main Contents
 
@@ -133,7 +133,7 @@ keywords:
 - Fluid Dynamics(유체역학)
 
 
-## Discrete Mathematics
+## 🌀 Discrete Mathematics
 
 이산적인 수학 구조에 대해 연구하는 학문.
 
