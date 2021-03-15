@@ -49,7 +49,7 @@ keywords:
 
 
 ### Pure Mathematics
-1. Quantity - Arithmetic(산술)
+1. **Quantity - Arithmetic(산술)**
     
     - Natural Numbers(자연수): N
     
@@ -66,13 +66,13 @@ keywords:
 
 2. 🌟 **Structure - Algebra(대수학)**
 
-    이산수학의 Main Contents
+    => 이산수학의 Main Contents
 
     代(대신하다 대) 1, 2, ... , x, y, z
 
     - Combinatorics(조합론)
 
-        순열, 조합
+        - 순열, 조합
     
     - Number Theory(수론)
 
@@ -82,7 +82,7 @@ keywords:
 
     - Order Theory(순서론)
 
-3. Space - Geometry(기하학)
+3. **Space - Geometry(기하학)**
 
     - Trigonometry(삼각법/삼각함수)
 
@@ -93,7 +93,7 @@ keywords:
     - Fractal Geometry(프랙탈 기하학)
 
 
-4. Change - Analysis(해석학)
+4. **Change - Analysis(해석학)**
 
     변화를 다루는 것
 
