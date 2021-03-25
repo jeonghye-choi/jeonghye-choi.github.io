@@ -1,5 +1,5 @@
 ---
-title: Discrete Mathematics Intro (이산수학)
+title: Discrete Mathematics(이산수학), Intro 
 date: 2021-03-03
 tags:
   - 이산수학
@@ -66,7 +66,7 @@ keywords:
 
 - Complex Numbers(복소수)
 
-> #### Q2. What is symbol for the Natural Numbers? - N
+> ### Q2. What is symbol for the Natural Numbers? - N
 
 
 #### 2. 🌟 **Structure - Algebra(대수학)**
@@ -149,7 +149,7 @@ keywords:
 
 이산수학은 전산학의 기초가 되는데, 이것은 컴퓨터에서 다루는 자료형이 이산적이라는 것에서 기안한다. 이산수학에서 나온 개념과 기호는 컴퓨터알고리즘과 프로그래밍 언어의 문제나 대상들을 연구하는 데 유용하다.
 
-> #### Q3. 이산수학을 영어로? - Discrete Mathematics
+> ### Q3. 이산수학을 영어로? - Discrete Mathematics
 
 ### 이산수학의 주제
 
