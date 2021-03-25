@@ -1,4 +1,194 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[성장을 그리는 정혜 | Feed]]></title><description><![CDATA[공부하고 생각한 것을 적는 공간입니다.]]></description><link>https://jeonghye-choi.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Mar 2021 18:08:54 GMT</lastBuildDate><item><title><![CDATA[\[Error] Kernel driver not installed (rc=-1908 Mac Big Sur)]]></title><description><![CDATA[맥에서는 모르는 프로그램에 대해 실행 권한이 필요하다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[성장을 그리는 정혜 | Feed]]></title><description><![CDATA[공부하고 생각한 것을 적는 공간입니다.]]></description><link>https://jeonghye-choi.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Mar 2021 18:48:49 GMT</lastBuildDate><item><title><![CDATA[Kali Linux 설치 & 환경설정]]></title><description><![CDATA[1. VirtualBox 설치 다운받기 -> VirtualBox downloads 다운된 dmg 파일 실행  2. Kali Linux 설치 이미지로 설치 -> Kali downloads  Offensive Security VM Download Pag…]]></description><link>https://jeonghye-choi.github.io/installKaliLinux/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/installKaliLinux/</guid><pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-virtualbox-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-virtualbox-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 virtualbox 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. VirtualBox 설치&lt;/h2&gt;
+&lt;p&gt;다운받기 -&gt; &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;VirtualBox downloads&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;다운된 dmg 파일 실행&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/06b3b211b2d5ff4329ee9db598271afd/08c33/virtualBoxInstaller.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 63.51351351351351%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAC80lEQVQ4y6WTz08TURDHKx49kWiCf4Hx7sFgjBcuXNoCpQcC6oGAhFAMUdptC3jgt/IjMRoVQqRowB8YafyBIUFNQPlpaCm2WELFtpRSoO3u627psjO+XQp6wJOTfDObeW8+b2bePpWK2hmV6gR1p6myjlZG1r/XFMm5p6gyZJ6qtaa6s6OrAZmGupjFYiEWC0MsVithzGZira8nrW3tpKWlhTQ3N5JbDXWEYRhiNDHERD3dw5nN5mSt0RhUq9VnFaDL7X6K1MIbG8ALuyikEHleQFEU8W+bWvqF894NPMoSiUSSFnNBAXrc7gE5GAiGUuzWGmx7nwEbjYAgJIGGwfMzDIb2QahoskF50wCY74+AJxADugg+n08iJIGCIBCj0ZitAB0Ox0D6IDG+vowz/eUoJokS8K1t4ujnBbR/nMeyRhta7g1jj30aa+6O4aTTj9uRDUjQbgil0tb3K3Q6nYdAnk/iZiSGQjKpBFbXwphbcQcfDH7AH6t+7Hu7gPlGG54racPxOR/yhKVAHuPxeMJqte4DXS6XAqSniHt7IqZSKbkFlOh3YH0Ti5mHeKm0DXtejGNR3SDmVt7G4oZ+HP3qQ5QkSOcm6GXtA5eXlwd4esrs7Kzo9XrR5VjAJZcLF12LGPAHsaPHjhdLW7HD9h4rW4Yw51on6pghHBlzIi1AAXLckS1Dai4sQP08B35O3giwJwE4nCvQ3fsanr+bhKouO2iu90HZjV7weIOwtRWR0recMJlM2QctPzmYoZ/dxZcrHO7s/vklonEeJ74s4dSsB292jmC5xYafJr/T6vbovCMgSZIM5A9nODMz81hOZFlWjG5FIBYKQDy6AyzHAR02cNSv+UMw/GYCuh+9gulvbiAcC4FAAEKhkBQOhzEYDLK1tbXnZd6xnJyc7MLCQoNGra7Kyy+o0ur0Bm1enkGj0Ri0Wq3i9XqdQV9YYLh6uchwhUqOyTk6na5Kr9dXU1+SmZl5UkULU6Dpd3j8PyQzVL8BDlKO5SWBcqgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;virtualBoxInstaller&quot;
+        title=&quot;virtualBoxInstaller&quot;
+        src=&quot;/static/06b3b211b2d5ff4329ee9db598271afd/fcda8/virtualBoxInstaller.png&quot;
+        srcset=&quot;/static/06b3b211b2d5ff4329ee9db598271afd/12f09/virtualBoxInstaller.png 148w,
+/static/06b3b211b2d5ff4329ee9db598271afd/e4a3f/virtualBoxInstaller.png 295w,
+/static/06b3b211b2d5ff4329ee9db598271afd/fcda8/virtualBoxInstaller.png 590w,
+/static/06b3b211b2d5ff4329ee9db598271afd/efc66/virtualBoxInstaller.png 885w,
+/static/06b3b211b2d5ff4329ee9db598271afd/c83ae/virtualBoxInstaller.png 1180w,
+/static/06b3b211b2d5ff4329ee9db598271afd/08c33/virtualBoxInstaller.png 1570w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;2-kali-linux-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-kali-linux-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;2 kali linux 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. Kali Linux 설치&lt;/h2&gt;
+&lt;p&gt;이미지로 설치 -&gt; &lt;a href=&quot;https://www.kali.org/downloads/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Kali downloads&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/61606763120c169164412ebd906ac6b2/71ba4/downloadBtn.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 42.567567567567565%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABOklEQVQoz42RTU7DMBCFcxo4ACxA/AiO1NtwDTZcgAUS0LKhpZQ2iVsEbRzlx0nsOEl5TAwFIjUoi8/jsew3M89WGEaYvMxg2wyzmWNgbAHHYZhOHUwpd905pFTQWiPPcxPbsJIkReAH8DnHcumBcx8+5fX+ixU8j0OpjoI6lxi+uuCJRKFz6kSaR1VVEaWhLMtOYkYwE++471/A9QKIKKLufAghfgT+0m3kNMPVzRv8IIHMUiRpChHHUHWnNGYrLQVIUOLyeoElj5CIGGEYIiJRDaD4B10UW7u16gUfGmWhyUNivYa0bYjbO4jBAzFo0u+bqGpbtoha9YHa+ERj1tVZr4fHnV08n51jfHSMp4NDE8cnp2Y/2tuHGI7M3fz79xuCDeOparpaIXIcxPM5YsZ+2eQUVZZt9fATWcqk0SqEVQQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;downloadBtn&quot;
+        title=&quot;downloadBtn&quot;
+        src=&quot;/static/61606763120c169164412ebd906ac6b2/fcda8/downloadBtn.png&quot;
+        srcset=&quot;/static/61606763120c169164412ebd906ac6b2/12f09/downloadBtn.png 148w,
+/static/61606763120c169164412ebd906ac6b2/e4a3f/downloadBtn.png 295w,
+/static/61606763120c169164412ebd906ac6b2/fcda8/downloadBtn.png 590w,
+/static/61606763120c169164412ebd906ac6b2/efc66/downloadBtn.png 885w,
+/static/61606763120c169164412ebd906ac6b2/c83ae/downloadBtn.png 1180w,
+/static/61606763120c169164412ebd906ac6b2/71ba4/downloadBtn.png 1870w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Offensive Security VM Download Page 누르기&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8b060a15fdbe8eb03c7c95e731417091/71ba4/imageDownloadBtn.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.70270270270271%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAABYlAAAWJQFJUiTwAAABXElEQVQoz42S527DMAyE9f6P1wJF0djN8N6WZxyPq46NAiM/2hj4QJGSSeooVdc1SFmWQpZlYouiEDvPM26320vwrPI8D5fLBefzWazrujidTjgejwKTDsOAcRwf0H+Okev1ChXHsXSVJAmiKILv+wjDUPwgCMS3hwnX7GZZFkzT9Nijpa8W06ZNMpuDDNpr53kOrbUcXtdVkmzbJsUOhwPathWfccJCqh0HlNSwqtB2HZqmkXVtElW0Zo8/9n0v8KoswoL7OGFhFb29I3NcIf1yUCUpdJohDEJQjjRNH1JQb1pCOSz0qT8LqOTjE4XnQ5uKdV5Am6508TttXpkdstM99kU8x9i9gvk2w3pnoVYbIxB9qB3h+j/k2bTON4YgwhDFwmImtpkNqwnpjLb2vVJju6aWdk1kyr3RatINVjOl1SQii0nW3QW3XdpJ/oV0KNfcjV64X/PVRPuEP7IeTet7ZPebAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;imageDownloadBtn&quot;
+        title=&quot;imageDownloadBtn&quot;
+        src=&quot;/static/8b060a15fdbe8eb03c7c95e731417091/fcda8/imageDownloadBtn.png&quot;
+        srcset=&quot;/static/8b060a15fdbe8eb03c7c95e731417091/12f09/imageDownloadBtn.png 148w,
+/static/8b060a15fdbe8eb03c7c95e731417091/e4a3f/imageDownloadBtn.png 295w,
+/static/8b060a15fdbe8eb03c7c95e731417091/fcda8/imageDownloadBtn.png 590w,
+/static/8b060a15fdbe8eb03c7c95e731417091/efc66/imageDownloadBtn.png 885w,
+/static/8b060a15fdbe8eb03c7c95e731417091/c83ae/imageDownloadBtn.png 1180w,
+/static/8b060a15fdbe8eb03c7c95e731417091/71ba4/imageDownloadBtn.png 1870w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;KALI LINUX VIRTUALBOX IMAGES 클릭&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;3-이미지-가져오기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0&quot; aria-label=&quot;3 이미지 가져오기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. 이미지 가져오기&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;가져오기 클릭! &gt; 동의합니다&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;4-설정1--포트--usb&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EC%84%A4%EC%A0%951--%ED%8F%AC%ED%8A%B8--usb&quot; aria-label=&quot;4 설정1  포트  usb permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 설정(1) : 포트 &gt; USB&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;usb%ED%8F%AC%ED%8A%B8.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&apos;USB 1.1(OHCI) 컨트롤러&apos; 선택&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;4-설정2--네트워크--어댑터1&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EC%84%A4%EC%A0%952--%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC--%EC%96%B4%EB%8C%91%ED%84%B01&quot; aria-label=&quot;4 설정2  네트워크  어댑터1 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 설정(2) : 네트워크 &gt; 어댑터1&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;%EC%96%B4%EB%8C%91%ED%84%B0%EC%97%90%EB%B8%8C%EB%A6%BF%EC%A7%80.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;브리지 : 지금 사용하고 있는 네트워크를 같이 사용.&lt;/li&gt;
+&lt;li&gt;NAT : VirtualBox 내부에 또다른 네트워크를 만들어서 아이피를 할당.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;네트워크 브릿지를 연결해주면, 와이파이에 연결된 모든 기기가 이 칼리리눅스에 연결할 수 있다.&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;실행&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%ED%96%89&quot; aria-label=&quot;실행 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실행&lt;/h2&gt;
+&lt;p&gt;에러발생&lt;/p&gt;
+&lt;p&gt;해결 =&gt; &lt;a href=&quot;https://jeonghye-choi.github.io/VirtualBoxError/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;Error Kernel driver not installed&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/67ad7195034eb234bb94528502ad659e/dd507/success.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.1891891891892%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAABYlAAAWJQFJUiTwAAADxklEQVQ4y62TbWhbZRTHn3X1bZsfdqcfqoioFRXZkDrBiUJRqo2zfhUmVmGMMWl1b64UVgXbiS3oujAjw6psXV07+mLrss6la5OmsW2atMlN7r3JTUqbtSg26829fTFpmty/J3e6gdQNxAM/zkM4/DjnnhzGKMSP9t11/vxhrs3evfmXQRfnHnNzFouFq6qq4mpqari6ujquurqaq6io4CorK7mGhgbO6XRyAwMDXJ/Ntnmwt5u7dNG6if0dwpXLR4OCS+fDwpwclhVZlhWv16uMjIwoo6OjisfjMbLL5VKGhoaMdzQaNeoikUg8MhVbkUIhK6nyDKHD6TT/PhdHIBDQeZ7HxIQPPp8foiSBChGWZYTCYXqHjRwUBAiiCIFyrkae0+DjA15SbTCE1HpjLDYN7/j4SoDns5NyiJCykZBoIIvBrBTgDQIT49nJkJSNEgLV8sHgqu/qHLw+/+gNIY3WqGkaYrFYmhck/WRzF8ynO2A+0wnz2U6caOlAI2Fu7YKlvQenuqywdP0Eu9uD2ZmZzG/XFIii6L4hpFEbdQDJRTXtCFzV2e4OsIpOsKofwT4h6oj6brAve8AsF8GaLoF9a8WnXhGrC2omtZLC9PT0TSF9t8asrmNZU9L24IzODtjAaq6AHXOAfeEC+8pNAi9YywTYuTGsbxsBax9GbWAS6YSSWU6lMDU19W9C6rDCCnb4Z+QfbMf973yGLbuOYsvbR3DfrgO4+1gz1rWS8Nwgavko0qqS+eOWQj6msz003iEb7tz3HQpN+/F40at44slnUPhYEe794HPqzvMfhAepw/eb8VBRMR7cXoKC500oeO0QNlQ3UYfDYD84UOuP3F6YW8q6vT3I238B66usyPu4FxvrL2PTcRvyT9qQ19SPO846wVqdqONvJ1xQ0v1+6rCcNryXNvshbfXIBTx8vA9Pn+oHO0HL+pqW9b0d7Ew/anxhrKqJtZdCPmiJ+TQ/+ate/s0oyk+78W7LGMrbPNjdNY491gmU9xI2H96z83hr0I+OaAxLipJJ/lPo9/tJqCMej6eV+Wv6ymLiOgvXSWkJPakpRk6pisEKoc3P63Px+GoymcwJb14K3aSZ/tdQVTWTu5iEugb0u0pof5F7Ly1qWFS13E1gdnbWQ6qNhtBut9fT2UGSpCUiSaTWwivIqWE+ZOANhlI2t5TqC/qXxwQRQw6Hg1T3GMLi4uLCsrIyU2lpqelW8VzJm6atL+80bX3lDdOOkjJTwfbXTQ+UvmB66sWXdhZt2/YsqfJz47L/K3Y88ij7E0kUiBBvA3Q7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;success&quot;
+        title=&quot;success&quot;
+        src=&quot;/static/67ad7195034eb234bb94528502ad659e/fcda8/success.png&quot;
+        srcset=&quot;/static/67ad7195034eb234bb94528502ad659e/12f09/success.png 148w,
+/static/67ad7195034eb234bb94528502ad659e/e4a3f/success.png 295w,
+/static/67ad7195034eb234bb94528502ad659e/fcda8/success.png 590w,
+/static/67ad7195034eb234bb94528502ad659e/efc66/success.png 885w,
+/static/67ad7195034eb234bb94528502ad659e/c83ae/success.png 1180w,
+/static/67ad7195034eb234bb94528502ad659e/dd507/success.png 1528w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;초기 아이디 kali 비번 kali&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1a05fd39111691ba6a14d441d0ae8d09/c4842/success2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 78.37837837837837%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAAEO0lEQVQ4y62Q6U+UVxTGz/tqxAiYSq3ga4GCUBjAYgGl7q1SoYZ9fRUQJQXFuFXbiixVQBgEHJChSqwbI2WVbYZhZgQZBgaspjFNYz9UP7RJTUqED7XN9IOTuU8vy5/Qkzx5zs3N+Z2FoG12ffrs5ro/Zqal1zMz0uvZV9Jvvz6X9H090rBeJz00GKQRo1bS3u+U+rrbJLPJIP0186c0O/1SesU1/eJnafbl7x5Pn78QaS5GevqbrI/NME9Y/7ZYxm2WySnbw7Ex28DgkE1nMNr0RpNNO2i09en0tp4+nW2Qv8enfrBZrI9sE1yTP/70r/XRk39qlMr354EX7wy2to/+gvrvhx2q7hGo+k1oMplwwzyK68MWfDc2hm+HxqDun4RaZ4G6z4L6TjOutI3ymgdo6LKi/vYAUuKTP5wHXmrTt7SOP4Oqw/rmas8UUxun2LURLrOZa5Q16s2s0TDK6nrMrEFrYY39VqZqtbCG+4/Z1XaLo773Cau/N8ySEjMXgCENrZqt3aMIqDDZA780wf+MHj6XHiDwygNsuDEIxW0dgioNCLpshKLcBMVxrnwtFCnNUGR2MEX6XShSr8Hjg6QFIOXc0pBqAqTU2alQh3dy7iO0cABLCw2gIiOoYgh0nnuyFnRQD0riHtMHirwOUigZhTaBNtSAPGMXgIJ/gUbM6wY1DttXlusQXKbH9i96sfurLiiKdFh+Zhh+5QZ8dGEA4cd7EHZWh/C8TrjEdoEiVEwMKoYQqYbgnbE44dpUDb13BJTbZqfKEdDJIbjkaBGW1YKAxGa8nTuA4OMDiOPA1OJeJJ9tx6b8DrhF3wQFVzMKugDyzget+WQR6H1IQ14c+G62nbJu8fXGIBzSwT29A/6xavjsrcX61LvYkqvBzvxWxBxrwbbMJizf0QwKKGWkKAb5FEBwDVkEeh7UkO8JkEeKndYdACXeAaXzW23jHlKLFQEFWOJXAKdNtXDa3IBlm1VYGlbNIUdB608y8swGrU2E4LZ5Ebj6Yz5hLj9qjp084kHu0aCdjRCiuyCEzhWemmvGlcoBPA/8BuR/DuTF1/RIYHMwctsCwdl7ASg6e2rENbsh+hyxi1IcE1dvZ6LbViaGlDAxrI6JfqeY6JXFRPc9TFyXwETfY0z0zmOCZzYT3D9jwqoIiG+FQ1wZuDghOWuIXEBOkW/IebeDlm10kOjjIMHXQe45DvIqdJBbmoNcovhfuINW7FzIXXc5yHmHg5wiGC31ZbRkzQIwKibhXsr+w4hNPoi4A1/PKz79KOLT8rgXIO7zJsQfrsW+zFJ8KhdhV/JpRHHfnlaGyKRT2JZxGnv25UARHLpxHnhZWRmmbmzIrKupylDVlMmqmgpZVVslq+qquVfKV5SFcn11iVxVXSEXKavkExcr5HOV5XLeeaWceb5Uzq0q2l9WUpgYtTdqFf3fAYD+AxmxSec5ILKaAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;success2&quot;
+        title=&quot;success2&quot;
+        src=&quot;/static/1a05fd39111691ba6a14d441d0ae8d09/fcda8/success2.png&quot;
+        srcset=&quot;/static/1a05fd39111691ba6a14d441d0ae8d09/12f09/success2.png 148w,
+/static/1a05fd39111691ba6a14d441d0ae8d09/e4a3f/success2.png 295w,
+/static/1a05fd39111691ba6a14d441d0ae8d09/fcda8/success2.png 590w,
+/static/1a05fd39111691ba6a14d441d0ae8d09/efc66/success2.png 885w,
+/static/1a05fd39111691ba6a14d441d0ae8d09/c83ae/success2.png 1180w,
+/static/1a05fd39111691ba6a14d441d0ae8d09/c4842/success2.png 1634w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;실행!!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[\[Error] Kernel driver not installed (rc=-1908 Mac Big Sur)]]></title><description><![CDATA[맥에서는 모르는 프로그램에 대해 실행 권한이 필요하다.
 권한을 주지 않았을 때, 커널쪽에서 처리하지 못해서 생기는 오류라고 한다. 즉, 시스템 바닥까지 가서 처리해야하는데 그러지 못해서 생긴 에러다. 해결방법은, 이걸 실행하는 곳에서 보안 및 개인정…]]></description><link>https://jeonghye-choi.github.io/VirtualBoxError/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/VirtualBoxError/</guid><pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
