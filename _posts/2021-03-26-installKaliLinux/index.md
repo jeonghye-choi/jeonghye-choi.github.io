@@ -39,7 +39,7 @@ KALI LINUX VIRTUALBOX IMAGES 클릭
 
 ## 3. 이미지 가져오기
 
-![](가져오기.png)
+![](import.png)
 
 가져오기 클릭! > 동의합니다
 
@@ -47,7 +47,7 @@ KALI LINUX VIRTUALBOX IMAGES 클릭
 
 ## 4. 설정(1) : 포트 > USB
 
-![](usb포트.png)
+![](usbPort.png)
 
 'USB 1.1(OHCI) 컨트롤러' 선택
 
@@ -55,7 +55,7 @@ KALI LINUX VIRTUALBOX IMAGES 클릭
 
 ## 4. 설정(2) : 네트워크 > 어댑터1
 
-![](어댑터에브릿지.png)
+![](networkSetting.png)
 
 - 브리지 : 지금 사용하고 있는 네트워크를 같이 사용.
 
