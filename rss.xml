@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[성장을 그리는 정혜 | Feed]]></title><description><![CDATA[공부하고 생각한 것을 적는 공간입니다.]]></description><link>https://jeonghye-choi.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Mar 2021 18:53:14 GMT</lastBuildDate><item><title><![CDATA[Kali Linux 설치 & 환경설정]]></title><description><![CDATA[1. VirtualBox 설치 다운받기 -> VirtualBox downloads 다운된 dmg 파일 실행  2. Kali Linux 설치 이미지로 설치 -> Kali downloads  Offensive Security VM Download Pag…]]></description><link>https://jeonghye-choi.github.io/installKaliLinux/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/installKaliLinux/</guid><pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;1-virtualbox-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-virtualbox-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 virtualbox 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. VirtualBox 설치&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[성장을 그리는 정혜 | Feed]]></title><description><![CDATA[공부하고 생각한 것을 적는 공간입니다.]]></description><link>https://jeonghye-choi.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Mar 2021 20:02:51 GMT</lastBuildDate><item><title><![CDATA[Kali Linux 설치 & 환경설정]]></title><description><![CDATA[Kali Linux 설치 1. VirtualBox 설치 다운받기 -> VirtualBox downloads 다운된 dmg 파일 실행  2. Kali Linux 설치 이미지로 설치 -> Kali downloads  Offensive Security V…]]></description><link>https://jeonghye-choi.github.io/installKaliLinux/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/installKaliLinux/</guid><pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;kali-linux-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kali-linux-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;kali linux 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kali Linux 설치&lt;/h1&gt;
+&lt;h2 id=&quot;1-virtualbox-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-virtualbox-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 virtualbox 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. VirtualBox 설치&lt;/h2&gt;
 &lt;p&gt;다운받기 -&gt; &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;VirtualBox downloads&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;다운된 dmg 파일 실행&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -281,7 +282,394 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;실행!!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[\[Error] Kernel driver not installed (rc=-1908 Mac Big Sur)]]></title><description><![CDATA[맥에서는 모르는 프로그램에 대해 실행 권한이 필요하다.
+&lt;p&gt;실행!!&lt;/p&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;h1 id=&quot;kali-linux-환경설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kali-linux-%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95&quot; aria-label=&quot;kali linux 환경설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kali Linux 환경설정&lt;/h1&gt;
+&lt;h2 id=&quot;0-terminal-emulator-클릭&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#0-terminal-emulator-%ED%81%B4%EB%A6%AD&quot; aria-label=&quot;0 terminal emulator 클릭 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;0. Terminal Emulator 클릭&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e29d0ce27b0b23d7ffc02f9dd7122935/4b4ec/terminalEmulator.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 72.97297297297297%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAAECklEQVQ4yzWS+1MTVxTHz5U69YmSVWDAWEEFQQpN0ZaqCMrbkoohNCQCQV6yYHgooKIOOgpoRaqjtdoqih0eBUwjhAD1UUTbAnb6a2c6mf7Yv6E2m/32JNCd+c6ec77nfvbcu5dmno1U/fz6Rc3865fy3MyC3kzPyLPPX8pjj4dk5+CI/GRgSB4aeCQ/dY7Jb2ZfyXOvpuU5Xz+/5+dnq3//7Ze62dlfs8j37LK0INF0DtFnhxFzxY7YW/2IHXyA2Pu9iL7Rh+jeHkS19WNr6xD3DCHmPKvVjphjI4iRuddyF7r0WmzX7XvuBwYeH/2HylxeMk94qP65Ql9OKNT7RKHHgwp9Z1fooUOhe5wfnVboInvHOT7AdQv3FjgVSr3zlja3glanOP3AgOujHjr3I0TRuCrMkyq1TKl0fkoVtxyqePS9Ki6PquIKx53sNzhVUT6misxBVaQ+UEUW+6k9ypK9N7FkY/G4H0idTzx0fQx0jmFV4wgosmNp0wTo9BSofRz01SjHnFeyGrhm4JphErT7NmjHddDHdxXacROkO+1aAB6846GuF6Auhyq1jeKTZjvy2xyIOj+O5Tw5NU9h2YVJBFrtWFXkwOpyJ4IKhvFO9iBDukDxHQrt7gXFnVkEbizz0OFvQR3P1BUXXFhzyoWI0hHsKutFvDyAlfWTiDvrwmfdLmSfsiOz5QekNDyGNr8PlHQXIvqkQnEXQQnti0BtiYfCSkD5X6t06RmoZgJBlS7El/Yh/tBtaHjhtgo7so8PI+fEMCyn+rG38iHCDQzc2gah61IoshEUemgRuKnaQ9pSUIhRJcMdiKafQIUOLM14BE1yNyJT2hCa1o04033Em3vwQeE9JBpvYGXSZdD2DlBkrUJRzaBw0/9bPuJh+QoqheSD9l0DGfkHpPjO5SpERBVoQxEo6jTnPkg76P2roPe47lu3qUKh0FzQ+vRF4LpUnpANrVWl4GxQ8H7Qzkug/bylhE6eoB4U9jnXc3hxOWgb37ktLQys5W3yAOszFFqfBgqMXwCKFeFvRXCWKrTFigjN8QrNLq8I1HnFllqv+PCaV2yu84qNJV4RkukVwekcW71Cy9pg9opQPffv/lesSYBYm7hwsSlAAwpYx1/YCwrK5Bv/EWh5FOhdVthh/8FTmBUkfcpeMvexNAdYGaC1PNkazlfpQMsinvp5uXmmP/QG8196Q7Fbbz7h1hfWu/XGigXll7r1R75w60s62Gthr8mtL6hx55oa3WmFZ9wpxgb3noP1fyblHf07NV3/jR94srE66FiVVbIdNUl1RTslW0mqZCs/KNkq8yRblVGy5WkkW4FWsvk8a5JUV54tHbPukUoLEyWLJUUymtKlQ4eT18lleSt9vP8ATgMNbH2eq+sAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;terminalEmulator&quot;
+        title=&quot;terminalEmulator&quot;
+        src=&quot;/static/e29d0ce27b0b23d7ffc02f9dd7122935/fcda8/terminalEmulator.png&quot;
+        srcset=&quot;/static/e29d0ce27b0b23d7ffc02f9dd7122935/12f09/terminalEmulator.png 148w,
+/static/e29d0ce27b0b23d7ffc02f9dd7122935/e4a3f/terminalEmulator.png 295w,
+/static/e29d0ce27b0b23d7ffc02f9dd7122935/fcda8/terminalEmulator.png 590w,
+/static/e29d0ce27b0b23d7ffc02f9dd7122935/efc66/terminalEmulator.png 885w,
+/static/e29d0ce27b0b23d7ffc02f9dd7122935/c83ae/terminalEmulator.png 1180w,
+/static/e29d0ce27b0b23d7ffc02f9dd7122935/4b4ec/terminalEmulator.png 2576w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;1-네트워크-연결-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%97%B0%EA%B2%B0-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;1 네트워크 연결 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. 네트워크 연결 확인&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ ifconfig&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fe6328bfcfc2a5578610e8f18acd6d80/51800/ifconfig.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACQUlEQVQ4y01TWXbiMBD0RcISZIxZjPdVdoyJgbAnM2/uf5OakmwgH/Va8Fql6qq2YWU7mM0/mNUP7GQLy5Ww1hJTN4flqXMBc5Xh3U4wmacQiwzDaUSEGJodRlakMTQDGDOvxCquIdsLis8r6q8/KLZXlO03qt0P5OcN5e6O5OOIbHOB3N7gJi1iecQ6bDAmiSIa8ZERHzEG0wCKVLZ34oa0OSHdnJE1Z8TVCUVzRVweERR7OFEDj2SWIzFzSkyXOcaKyPSJjtQYWiFHyqnkTlV3uNknPvY/SOojVZ1R1Fes4y3WtEONO7FTmKxjK9Zjj1g1mQYVimWqPVtGNZy4wYoq/LzVBMuwxsKrMHcrkuQwqch2S6KCoJ8P/8aKWJ2FTw+dnGNsEckDAiL5OGnUuxviYge5OcFPGswZznTBYGahhphFEHbnmx67D8pQpqpmWZ8Qyj2i8gtpTQ+rA9LqiJyEKR9YhxuSxBw1ekIRjjVRR6hHHkw8PUrF9Db0zs/3qA9/UTYX/bs93BmARERv7WWiVYo56zym0te6dMEohUz5ncGs/BqrYKP98VJ6SP+UFR69XXA3naDCgpOsWR2/hLXM9D2l9Jmy4B5aPkmyb4ycFhOmPWLT28TneGG/CoFWoowfW51/E1ZFZtpRT/grFLEqMXNrDMgudHOgjRZ23Bnfm68uq9r9R7K+d/ggMzsBxpCsA+E/d+ldyRfea7em3QPdOXydH/jdy7vGI52nDw9C0TW9vtn+E+vxVCZcPerj/n9nb5eSzb4DcwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ifconfig&quot;
+        title=&quot;ifconfig&quot;
+        src=&quot;/static/fe6328bfcfc2a5578610e8f18acd6d80/fcda8/ifconfig.png&quot;
+        srcset=&quot;/static/fe6328bfcfc2a5578610e8f18acd6d80/12f09/ifconfig.png 148w,
+/static/fe6328bfcfc2a5578610e8f18acd6d80/e4a3f/ifconfig.png 295w,
+/static/fe6328bfcfc2a5578610e8f18acd6d80/fcda8/ifconfig.png 590w,
+/static/fe6328bfcfc2a5578610e8f18acd6d80/efc66/ifconfig.png 885w,
+/static/fe6328bfcfc2a5578610e8f18acd6d80/c83ae/ifconfig.png 1180w,
+/static/fe6328bfcfc2a5578610e8f18acd6d80/51800/ifconfig.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;eth0에 inet 확인.&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;화면 깨끗!&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ clear&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fdf182af49d09b103b360be7b37e39e7/51800/clear.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACRklEQVQ4y02T6ZaiMBSEfZFuRQOIC/tOQMR2ae1Wu2fOvP+b1FSC248ykRMqdb97GdjFDmb3D2bzCyfbwPYlbE/C8kvYgdpXMJcFxk6GySyHmBcYWgkVY2j2GtmJ1tCMMJgGNZZpC7n9RvVxRvv5B9XmjHr7g2b3C/lxQb27IlsdUay/ITcX+NkWqTzCizsYNFFGI14y4iWDdyuCMpXbK3VB3p2Qr79QdF9ImxOq7oy0PiKq9nCTDgHNbFdi6tawFiUMZWSGVG86GNoxSyqZ5MpUV/jFB1b7X2Ttkam+ULVneOkGHnGocidODpOrYae67BFXbabFhGKRa2aLpIWbdlgyRVhutcEibjEPGsz8hiYlTCZy/JpqIMjzzs9QxmovQjJ0S5axQSIPiKhsddJqdxek1Q5yfUKYdZixOdacjZnGWmKaQDg9N132rVEDBVUdlu0JsdwjqT+Rt2TYHJA3R5Q0zHmBF69pkrLU5CFlaGij3lCX/D4JdCkNGa7Z1bDcoz38Rd19Y02W28OVDZBIyNZZZDqlmHGdpUz6HJe+MTQcM+aEjVGclkyh+AQ5GZKfQhGQ7Zyz6UYN5qzE4+qGNewFZ5PvqaSPLgvOobGsIYofzIoLDHZvxENvk5DlxbdRiHQSBd6we34qgDIzneRm+NKUdzvHxGMngxXGVqgPK9DCSXvwN/jqZbX2z2imjaO+0w8xofoZ0lmxNJhmrOKL4DlbVqQv6Pfxc3/X61m+O3h1vz/Uh0T///nN3j6xmx7JhK9LvXP8D3Eal5zoJjvsAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;clear&quot;
+        title=&quot;clear&quot;
+        src=&quot;/static/fdf182af49d09b103b360be7b37e39e7/fcda8/clear.png&quot;
+        srcset=&quot;/static/fdf182af49d09b103b360be7b37e39e7/12f09/clear.png 148w,
+/static/fdf182af49d09b103b360be7b37e39e7/e4a3f/clear.png 295w,
+/static/fdf182af49d09b103b360be7b37e39e7/fcda8/clear.png 590w,
+/static/fdf182af49d09b103b360be7b37e39e7/efc66/clear.png 885w,
+/static/fdf182af49d09b103b360be7b37e39e7/c83ae/clear.png 1180w,
+/static/fdf182af49d09b103b360be7b37e39e7/51800/clear.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;2-데이터-정상적으로-나가는-지-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#2-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%95%EC%83%81%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%82%98%EA%B0%80%EB%8A%94-%EC%A7%80-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;2 데이터 정상적으로 나가는 지 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;2. 데이터 정상적으로 나가는 지 확인&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ ping 8.8.8.8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e044d1065dae59a987b11affe6930c15/51800/ping8888.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABnUlEQVQ4y2VT226lMAzkSw7kQkJOu9IWCK3aqpenvlS7//817vhC4KgPIxvHnozt0Pn5ndzzf4pP/2j+/KZw/0RDruTuNnJX2LJRn1eg0jBtAGzeJGdIlfpxVT+zv1DX/3kht3xQmt9ofv0C4SM5FDkrdqWSv276bYUKxEA4xJkGEDH5kFbq3LSSnxCAvWQcsioQDKWamqoXlNpUNQsI6XiQdtzSDlFSlEysFbK6pjDVX0qFTACFuxIhmA417qTwhqTFMNek83NseZZov4sgCqxwuiUesZTxaigntFilWJTYWft8QRcmPcgg8CdVXOThB14KrMemBXxp1hjXOSGyLrjlHjIv6N8hOYo6nVU0BQVb5++ECxMWFoVwVYXT8Vx0MSD0WW/noZ7fVDBVCUrZZwIBSAPiHGPcbDku1jKeTCpq92FzMRO6Rq6IludNJZ/LQvalsCpRhhtiXpCoSrkwoDDarMZpbWQM/g6W2wj5TxGHVdlb8iw/PhxvKy1yrv56+DvOuajtduY2h50walKftINeZnwQNWXxr/1+Wv8D3WyC2Q4T4GYAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ping8888&quot;
+        title=&quot;ping8888&quot;
+        src=&quot;/static/e044d1065dae59a987b11affe6930c15/fcda8/ping8888.png&quot;
+        srcset=&quot;/static/e044d1065dae59a987b11affe6930c15/12f09/ping8888.png 148w,
+/static/e044d1065dae59a987b11affe6930c15/e4a3f/ping8888.png 295w,
+/static/e044d1065dae59a987b11affe6930c15/fcda8/ping8888.png 590w,
+/static/e044d1065dae59a987b11affe6930c15/efc66/ping8888.png 885w,
+/static/e044d1065dae59a987b11affe6930c15/c83ae/ping8888.png 1180w,
+/static/e044d1065dae59a987b11affe6930c15/51800/ping8888.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b4ca9f107bd7b13de2b5682a2a959f1d/51800/ping8888result2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACQ0lEQVQ4y02T2ZqqMBCEfY25UVBRxnEBWRMWFVHcRuds7/8odaoDo3PRXxr48qeq0vRcfYKz+4cFa1We4Sw1nIXGeJlivJBSsNwIfSeANY1Mb03jtp9EGDhh20+lD9DT+wdUdUFe35Durog3Z+jqjpzv4/KKdHuF2t0QZA1m6023OTZlE2iN17DkMOknIXoZN+vqE/nhYYCRAOs7Ns1vQk6I8zMywrenP/DTA4buS52UgTovaE/UKAKzvaw3KrwQ+EDZ/ELAOJLigqx6GKiX1C/gs+IWZooKkw1tlhequyEqzoQ0xmJBxWt9RMjnRKxvPrGIKgzfvxWGGEza/GxZJUva72nJiKokq1CAzEoO2RCoeElSmt8LuohUjemcF/UewWHJKmC7sy8H9DQ3y4aSdpPy3OZGReWeAMLlsCg/8fmBUB0wokKbqoZuC7QNqMtULKfMSCwVkhOtxnyWXLeHL4j6/fFOuzdUxy8U2wtcGSMqcQgeu69xaS+GQEVYxJxiKvOTgwleoLmMCm9VFQ2/H42LJDvCpWWbm+1JgOE0NGqftzzmHK6TPVTO3PQBmpZDdcQq2iPg+5mXY7bKsQy2mHMGP7yCzxneOfxzvzCrqLV+Xsp8veV8NQjUCRlVrOMKi2BHxQ3hNcK0RlowVx4o/dzPje0l1+lH3NntgPKnjLwKE/UXb7Mag5miHR/9oYf+yG+Lp5rq+gFtDbp30ltj/8ccUuFopnmSwmDkERaYfL4Dbqc/fP5WrbXXELc2ve73a3P8D8ljoUxInfCuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ping8888result2&quot;
+        title=&quot;ping8888result2&quot;
+        src=&quot;/static/b4ca9f107bd7b13de2b5682a2a959f1d/fcda8/ping8888result2.png&quot;
+        srcset=&quot;/static/b4ca9f107bd7b13de2b5682a2a959f1d/12f09/ping8888result2.png 148w,
+/static/b4ca9f107bd7b13de2b5682a2a959f1d/e4a3f/ping8888result2.png 295w,
+/static/b4ca9f107bd7b13de2b5682a2a959f1d/fcda8/ping8888result2.png 590w,
+/static/b4ca9f107bd7b13de2b5682a2a959f1d/efc66/ping8888result2.png 885w,
+/static/b4ca9f107bd7b13de2b5682a2a959f1d/c83ae/ping8888result2.png 1180w,
+/static/b4ca9f107bd7b13de2b5682a2a959f1d/51800/ping8888result2.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;확인 후 ctrl+c 눌러서 중단하기&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;3-kali-linux의-root계정-관리자-권한최고권한으로-바꾸기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#3-kali-linux%EC%9D%98-root%EA%B3%84%EC%A0%95-%EA%B4%80%EB%A6%AC%EC%9E%90-%EA%B6%8C%ED%95%9C%EC%B5%9C%EA%B3%A0%EA%B6%8C%ED%95%9C%EC%9C%BC%EB%A1%9C-%EB%B0%94%EA%BE%B8%EA%B8%B0&quot; aria-label=&quot;3 kali linux의 root계정 관리자 권한최고권한으로 바꾸기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;3. Kali Linux의 root계정 관리자 권한(최고권한)으로 바꾸기&lt;/h2&gt;
+&lt;p&gt;root는 리눅스에서 최고권한 (관리자 권한)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;$ sudo su -&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/527203147e7897f32a2df7c3a43ee378/51800/sudoresult.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB5klEQVQ4y1VT2XajMAzlR2YI4AUIJSzGBLI0aZO2p7P8/99otBiSebhHsiyudSURJe0J4v1fiIdvyLozbAoPsXGwKR3EueCn7hA9x2Pr5N4MjFijbwdGjDlR4W9gj19ghyvkSF50JyjbM+S7IwLPGNv2rxJrTmBriavtBBsiUx3aPjzgIOrnD3DzHbr5BvX4Bv3pE7rDB7QYc4cveHFX2Pl3qP0b7MYb+0SqyokJEiLSD9IoQYn7y2+Yrn9gvPyC8fUbPKKZ8IHhHUx1AF3NoF/mIEsks2zrBUTGwAptc+SX2+kOzf7OFThsAVVkUXaxoxag5OYMaTEyaUIkKymeyQb5UYWDKJGUeqVrqaRyF8jrCTIcCMOKVcUAuvQC9Om8yqYBUQ8T03OyLvCCpoov/sDyKTkLSLEtaY4WickmmEOWchImEkKWHGOZ1JfUUoJHUoIkE4pKZJqtB1NijAmdVJg/1kUGg4RERC9TU593KgsVGZRHPhEwkFRaIDn/TVnhHlJQoVRTiF2aTR8TYbKSD0GF5KWhSrrngSxD4TXQUqGyPSZKpdxDGkSQr8NQFMccn7OQuxLSn8IOVRV2KaXyVfvYLdPzvfju4S94zsVvo4V57cNCqCSJl1jLg/ET0VqZasLvJ9//A6MVidN/2NsVAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sudoresult&quot;
+        title=&quot;sudoresult&quot;
+        src=&quot;/static/527203147e7897f32a2df7c3a43ee378/fcda8/sudoresult.png&quot;
+        srcset=&quot;/static/527203147e7897f32a2df7c3a43ee378/12f09/sudoresult.png 148w,
+/static/527203147e7897f32a2df7c3a43ee378/e4a3f/sudoresult.png 295w,
+/static/527203147e7897f32a2df7c3a43ee378/fcda8/sudoresult.png 590w,
+/static/527203147e7897f32a2df7c3a43ee378/efc66/sudoresult.png 885w,
+/static/527203147e7897f32a2df7c3a43ee378/c83ae/sudoresult.png 1180w,
+/static/527203147e7897f32a2df7c3a43ee378/51800/sudoresult.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;초기 비밀번호 &apos;kali&apos; 입력&lt;/p&gt;
+&lt;p&gt;비밀번호가 안보이는 건 정상.&lt;/p&gt;
+&lt;p&gt;화면에 나오지 않을 뿐 입력되고 있음.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/78564dd03d62efb9475642e2917ad0da/51800/root.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACF0lEQVQ4y1VTWXbiMBDkIHljFnnFsbFlywtmSyAQmJn736amWjIm81FPW3epq1qaLYodvPYvvPqOVbnHPDbwggrzpIIXOfzyS0LbfS+s3HlQW3g+52Ft4TFmFpszwuGGsD4hInlc7pAUe0T5QHDNvbU+IOFl0WaHMHP7at1hLmSq5KjHCyrMdP+Fqr+g7M/Img/o3RXl9gsF96rtDe/VCbn5RGY+kDdnOxdSlXSWYCFE/ot0tqDE9vgb/ekPmuMDzeFu10KY1UxOt/DTHv57P8pykq3s0DgImQUrDCgtby/YdBc7ShWpOVG6kxhT3rqgZGKZNJhHNRaRsdU5Uq5lHOXP9t0Zh0ijXzfoQg0T12hWOWqVYxlLcDlhxQZZsDGKZ4JJtjRIPGx332i3V+KCovlE2YmnVzSUbHgm/orPNWNy+mnoa7t/IEg7S74QG0ZCK7mkTD0wkQnN7oaa8+bwYNI3Bvo6HG7cv2MQf0ne8kVk+oggMSSsHaH1r3SEuj7jVB3RZluE64HeHdlFzllBkm+RbgakfDoyrmiJkqqYLLIt4c8uK77DlB00eo+Egf7TbN7ki39hZeEqqbCMnG+K4zJ8xjipU1PkB7ytSlu2YgVShRyq2FiP1Ejix0+yysK3zdHup0xghXYSVNNbWkr5qni9rUC/zoP/Y53MH7HMnT2ZJx+ehMoFeaMFosD7QTRVpjbj93P5/wC+w5FrwwhyRAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;root&quot;
+        title=&quot;root&quot;
+        src=&quot;/static/78564dd03d62efb9475642e2917ad0da/fcda8/root.png&quot;
+        srcset=&quot;/static/78564dd03d62efb9475642e2917ad0da/12f09/root.png 148w,
+/static/78564dd03d62efb9475642e2917ad0da/e4a3f/root.png 295w,
+/static/78564dd03d62efb9475642e2917ad0da/fcda8/root.png 590w,
+/static/78564dd03d62efb9475642e2917ad0da/efc66/root.png 885w,
+/static/78564dd03d62efb9475642e2917ad0da/c83ae/root.png 1180w,
+/static/78564dd03d62efb9475642e2917ad0da/51800/root.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;kali -&gt; root, $ -&gt; # 로 변경됐다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/743eaa2905ddc01e6b2ca23ca20ecd6f/51800/root2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABjUlEQVQ4y2WTa27DIBCEfZLYGMwjaZWmfkSpqlS9/6HozC5gR/0xYg3sx+yCu8vtmX+3n3y/PnK8fmdzfuQhrtlcNsQY05b7sIiGuMnaEDAGjH7N/bRoHBjPuTu/f+Xb/Mw2LQBsqrRqIsGIR87FrSWqMAfg4D7zABDhg19y1yPpFCtsbRoqFMmmgKurNkICnXZox5LGtGnSuSQmLbUm0l1z6Nd/TgUmgsPqRABxd9PKZu+OkFgdoq9e+2c4spcov3MA2eLwCJ5wKdO5KB3U5tbskoJNKZ8HdDbqQriw9N0Bk0bElpeCcYRTEQ8NOsc8I6DSCpbcw+YJ9RtsduJOe+WKg/R2l2+PAz167AS4qMO4Pxe9GADHoKezqcc3ZYsrD6eMCRABajHPOerllt1cSsaz8UnH2mwmE2gaXOXKvrG45LpcSL0UuhJnOMGFGRvVKRMtEl3p1RSXBqP4bcveBuSfIgFdlbc00r677W/Lz7Ku8bLHVce9yO0qufWhAt3c+qqaX0DNmfsov5/m/wGCb4J/ULjQbAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;root2&quot;
+        title=&quot;root2&quot;
+        src=&quot;/static/743eaa2905ddc01e6b2ca23ca20ecd6f/fcda8/root2.png&quot;
+        srcset=&quot;/static/743eaa2905ddc01e6b2ca23ca20ecd6f/12f09/root2.png 148w,
+/static/743eaa2905ddc01e6b2ca23ca20ecd6f/e4a3f/root2.png 295w,
+/static/743eaa2905ddc01e6b2ca23ca20ecd6f/fcda8/root2.png 590w,
+/static/743eaa2905ddc01e6b2ca23ca20ecd6f/efc66/root2.png 885w,
+/static/743eaa2905ddc01e6b2ca23ca20ecd6f/c83ae/root2.png 1180w,
+/static/743eaa2905ddc01e6b2ca23ca20ecd6f/51800/root2.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;4-비밀번호-변경&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#4-%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8-%EB%B3%80%EA%B2%BD&quot; aria-label=&quot;4 비밀번호 변경 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;4. 비밀번호 변경&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# passwd&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;새로운 비번 입력&lt;/p&gt;
+&lt;p&gt;-&gt; 다시 입력&lt;/p&gt;
+&lt;p&gt;-&gt; 성공!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f19f6c8627ec6d6f2c19a87029a6b595/51800/passwdresult2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABsklEQVQ4y2VT7W7CMAzsk0DTpGkCnWD0A9YNENKmif3a+7+Md7bTFLQfJ7uJfTlf0qLenui0f6PjfiLfTlTGE5XNQGYzIEcE1k0vKMMIYL0Zpab02Kt7zRvOOyqmyw9N3780XO+07a7kd+9UbUbgKDBxlG8TxtyowBoIS3egEkRMXvqeiv58p9P0RR+XOw3Afvqk2F2EfHO4ko1HVRwXVTkCQlovpEX7cqbbeKMdRrE8Liww8ZmA1WWFfvinVMgEUGi3GK19oxV7E7hZyZhU/eqfScKsEL569c9wZC8xfmEjKxsygShDrLcj1ZuE+IC8NpCLSmzS+HxAYYNuNCCo4qKAm6qgh3GsoFTAhza6xn1GiJIVPPIaMleY36DYiTr1yiUFsdVL8TjQ4yk5IexVYViei14MCKtGT2dTH9+UTao8lHLOBAKQWqzzGuPpll2XRg5ojBpns7mZCU0mV7hUVyWVvC8XMl8KqxJlOME1HQpVKTdaNLrkVR36TMbgb5tqMyH/KZKwqvSWKpbvXpe35TvZ17xf8hmPtegtZubsw0zotGjtdYK1eLwQZWVun34/7f8DYjaFFcr9vAkAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;passwdresult2&quot;
+        title=&quot;passwdresult2&quot;
+        src=&quot;/static/f19f6c8627ec6d6f2c19a87029a6b595/fcda8/passwdresult2.png&quot;
+        srcset=&quot;/static/f19f6c8627ec6d6f2c19a87029a6b595/12f09/passwdresult2.png 148w,
+/static/f19f6c8627ec6d6f2c19a87029a6b595/e4a3f/passwdresult2.png 295w,
+/static/f19f6c8627ec6d6f2c19a87029a6b595/fcda8/passwdresult2.png 590w,
+/static/f19f6c8627ec6d6f2c19a87029a6b595/efc66/passwdresult2.png 885w,
+/static/f19f6c8627ec6d6f2c19a87029a6b595/c83ae/passwdresult2.png 1180w,
+/static/f19f6c8627ec6d6f2c19a87029a6b595/51800/passwdresult2.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;5-업데이트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#5-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8&quot; aria-label=&quot;5 업데이트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;5. 업데이트&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# apt-get update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a57069866d458818f2ebd2e018b239cf/51800/update.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAACEUlEQVQ4y01T6XqiQBDkQfYT0OHyWpFDQAVENDEajySb93+T2u4eMPlRXzc91TV9DIY7zZGHBfJoi+myhhVkMN0Y1pgQJIKBG2HgRLC8BKYX03kiHNOJMVAUp285I46R5Eek9Qn5/oLy+EBSnbAsjkg2r2IXeUv2gGR7QrymGPFDxuoAb7pGMCsw9FMtSpcYRXNFtrsIivaK5vwP5csDu7cvbPZ35DXFd1e0l29s2wfKwweqI4FsVp6xbe4I0wbuJJOKjYwSOIntur2hPpHQ4Y7q9UMLVhRvbtifv0W4On6iJOH65VPipQi/YRpWsFiw2F+p5XdkVCn73BZXuzncsMhaeLM1/PkGE5qvRzYItwgWpcT4e0x+MNvAJ1g8w3m8QxZVSAnjsIZDM3HnBSXkUEGMkd/B++X3314kS+FlaFCFf0m5SXcIKVkFK5gMl/0EQ8JIbEqDJ0ub5AWIT1AUtz29YQELmmqJP7x+T4vYRLSErBFMV0J2JyncMcXozCauE2i/fy6Ws9SCcisR7K7k/raRr+PuOBWfBQQkqtvXHJufi4iRKLVvcFDRTNxAW35L3DIny0VPcQ3V8YZdlXbXqoC6NbgqqYxuUDTkoacr5UQevurad/z4KcZwfL0UsxfrNAxx5DeKJDDk8lWoW2C4kZxrP/7xe/zmUq7RKz/n0AsqTer/2f5p9MnPytRCWu3z/wMalZVvM87TDgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;update&quot;
+        title=&quot;update&quot;
+        src=&quot;/static/a57069866d458818f2ebd2e018b239cf/fcda8/update.png&quot;
+        srcset=&quot;/static/a57069866d458818f2ebd2e018b239cf/12f09/update.png 148w,
+/static/a57069866d458818f2ebd2e018b239cf/e4a3f/update.png 295w,
+/static/a57069866d458818f2ebd2e018b239cf/fcda8/update.png 590w,
+/static/a57069866d458818f2ebd2e018b239cf/efc66/update.png 885w,
+/static/a57069866d458818f2ebd2e018b239cf/c83ae/update.png 1180w,
+/static/a57069866d458818f2ebd2e018b239cf/51800/update.png 1196w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;h2 id=&quot;세팅끝&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%B8%ED%8C%85%EB%81%9D&quot; aria-label=&quot;세팅끝 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;세팅끝!!&lt;/h2&gt;
+&lt;p&gt;Kali Linux 종료&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# poweroff&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;br/&gt;
+&lt;p&gt;아이디 root 비번 (새로 설정한 비밀번호)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 554px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/10c924648aad41f5dd2fdb2093f24d1a/04abd/rootLogin.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 81.75675675675677%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAADQ0lEQVQ4y22USU9TURiGTxOLoi40yHyhpUhBa2UWCSqDQAshom6IIrhQEnfMiqAohMlSUCgyzy1KnFgoIJRCAVE0/iEX5vW9vSU0hsWTe5Oe+5z3+853KkSTE6J5DeI5aSVtpMMF0UUs6xBW0rsB0UcGyJAbYnQTYmILYpLMfIOwk7kdiLdEPF6FaCJPKW6hpJ2Lu4iFi62kd5syfvCajPCDse8UkekfELM/FOGsr/DhV4iGFYgnTqgaF+FXNw+/hvdQPyZN76B+9gHq1o9Qt5GOT1B3EcsC1FbSuwDV+IYidJA3RNQtQ9QvUbiOo/cHEJWQjfCELGiSMqFNM/tggoZPzcU9TIjMKIRf9zum26WU1czJwupFiJovLNuFI/cGEJtuRvIDO8JKJhCWaoLhUiHiLuYh4vxlaBO5UWImN1OeEteqLRQ62IKZLW/CKsrqKG12M6ENmoybiJn6i7M9fxCadgP6C1dhpDQ6JQeahCuKLJnvSdkUFniF7KV929vDWt+SX0Mbn4kTRfWIvFYLbWoedCQu3QRdylVEehJSakwlKYhIy2Uv3zPZriL0JKxhulq5ZArLrdDpDIjRG6E7bYBWnwhtbBI0nmcyovTxiDTmIDynClJ2JSLi83G4fZainz49lEuu/gzR6MLx0k5Eh0g4dyYeBr0BOikaMZpYosdpTRz04RGQjNcRUvEb0v1dHt4t+LeMUPiLPeSozTGlqPQKG1bhVzGM4CslCMgqRUD2bQTmliEwvxyBJi/mcgQVlOOUuQwBBXcQWHQXh3o+Mt2OInRseYU13oNpYD+b9wacN+QFb4WVC3u5sI/YyCBTjJBxljdJ0QR/n3IrQvumj7CewkekkQfUTHELh72VQ9/GZydvkoV0k5fc0MbrOchNh8kYN57kcM+4/0voEVLWtKwIny3j5ItVRPWtQepzQrI5ETOyjmOyrJ/SwbV9oZzQcyjbBwiZUCULny4hrt+FG7xSxTw9s2MbeUSiVLxahUpOKL9PUDa1pQgPTOgjjH7lQu6kG4WcsWLOWPH8DoKHKOpfg2qYZY6Scfd+Dx2bBwv3SvbvWEFwjxPB7FsQyw5lKjVlwkbpkDeh/Ocg93CaUrsb/wD716amZOYteAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;rootLogin&quot;
+        title=&quot;rootLogin&quot;
+        src=&quot;/static/10c924648aad41f5dd2fdb2093f24d1a/04abd/rootLogin.png&quot;
+        srcset=&quot;/static/10c924648aad41f5dd2fdb2093f24d1a/12f09/rootLogin.png 148w,
+/static/10c924648aad41f5dd2fdb2093f24d1a/e4a3f/rootLogin.png 295w,
+/static/10c924648aad41f5dd2fdb2093f24d1a/04abd/rootLogin.png 554w&quot;
+        sizes=&quot;(max-width: 554px) 100vw, 554px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[\[Error] Kernel driver not installed (rc=-1908 Mac Big Sur)]]></title><description><![CDATA[맥에서는 모르는 프로그램에 대해 실행 권한이 필요하다.
 권한을 주지 않았을 때, 커널쪽에서 처리하지 못해서 생기는 오류라고 한다. 즉, 시스템 바닥까지 가서 처리해야하는데 그러지 못해서 생긴 에러다. 해결방법은, 이걸 실행하는 곳에서 보안 및 개인정…]]></description><link>https://jeonghye-choi.github.io/VirtualBoxError/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/VirtualBoxError/</guid><pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
