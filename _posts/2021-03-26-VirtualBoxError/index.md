@@ -1,9 +1,10 @@
 ---
-title: [Error] Kernel driver not installed (rc=-1908 Mac Big Sur)
+title: \[Error] Kernel driver not installed (rc=-1908 Mac Big Sur)
 date: 2021-03-26
 tags:
   - VirtualBox
   - Error
+  - 해킹
 keywords:
   - VirtualBox
   - Kernel driver not installed
