@@ -1,5 +1,5 @@
 ---
-title: Kernel driver not installed (rc=-1908 Mac Big Sur)
+title: [Error] Kernel driver not installed (rc=-1908 Mac Big Sur)
 date: 2021-03-26
 tags:
   - VirtualBox
@@ -9,14 +9,6 @@ keywords:
   - Kernel driver not installed
   - (rc=-1908 Mac Big Sur)
 ---
-
-# [Error] Kernel driver not installed (rc=-1908 Mac Big Sur)
-
-Kernel driver not installed (rc=-1908)
-
-Make sure the kernel module has been loaded successfully.
-
-where: suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) - The support driver is not installed. On linux, open returned ENOENT.
 
 ![](KernelDriverError.png)
 
