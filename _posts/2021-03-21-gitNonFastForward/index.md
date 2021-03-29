@@ -1,9 +1,9 @@
 ---
-title: [Error] \![rejected] master -> master (non-fast-forward)
+title: \[Error] ![rejected] master -> master (non-fast-forward)
 date: 2021-03-21
 tags:
   - git
-  - error
+  - Error
 keywords:
   - git
   - master -> master (non-fast-forward)

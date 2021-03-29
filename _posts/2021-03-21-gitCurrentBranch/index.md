@@ -3,7 +3,7 @@ title: \[Error] The current branch master has no upstream branch
 date: 2021-03-21
 tags:
   - git
-  - error
+  - Error
 keywords:
   - git
   - The current branch master has no upstream branch
