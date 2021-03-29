@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[성장을 그리는 정혜 | Feed]]></title><description><![CDATA[공부하고 생각한 것을 적는 공간입니다.]]></description><link>https://jeonghye-choi.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 26 Mar 2021 06:33:42 GMT</lastBuildDate><item><title><![CDATA[Kali Linux 설치 & 환경설정]]></title><description><![CDATA[Kali Linux 설치 1. VirtualBox 설치 다운받기 -> VirtualBox downloads 다운된 dmg 파일 실행  2. Kali Linux 설치 이미지로 설치 -> Kali downloads  Offensive Security V…]]></description><link>https://jeonghye-choi.github.io/installKaliLinux/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/installKaliLinux/</guid><pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;kali-linux-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kali-linux-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;kali linux 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kali Linux 설치&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[성장을 그리는 정혜 | Feed]]></title><description><![CDATA[공부하고 생각한 것을 적는 공간입니다.]]></description><link>https://jeonghye-choi.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 29 Mar 2021 10:44:46 GMT</lastBuildDate><item><title><![CDATA[Computer Architecture(컴퓨터구조), Assign1]]></title><description><![CDATA[Q1.4 IAS  명령어는 08A -> 08B -> 08C 순서대로 읽어진다. 08A : 010FA210FB
+08B : 010FA0F08D
+08C : 020FA210FB IAS의 메모리는 총 40bits로 이뤄져있다.
+명령어는 left, right으…]]></description><link>https://jeonghye-choi.github.io/computerAssign_1/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/computerAssign_1/</guid><pubDate>Sun, 28 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;q14-ias&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#q14-ias&quot; aria-label=&quot;q14 ias permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Q1.4 IAS&lt;/h1&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5e9afc3f8e74b281ee1ec7e1f597902c/6c68b/computer_assgin1_2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 27.027027027027025%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAt0lEQVQY031QXQ/CIBDb//97Rl2yyT5gsAHDOV/2wKhw0UWN7pLSQmhzd5m+zxidwzAM6PueWGtNmrct6rqGiffECfr5zxiDV4UQNp1hpwp2QVkxeKzEh9MR9uoQ3oK+kaVjXdcPeO/JoHoFFwOiFU3boCgL5PkZy7L8DNsC/5U2GtNtIs0Fp5FZ7HTPQyOP4wglJe1PCAEZdeK2E+Cyg4o7rGKHJWOoOYeIb9ZaKKXIk/zJM88zHvB8f4f1zjHeAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;computer assgin1 2&quot;
+        title=&quot;computer assgin1 2&quot;
+        src=&quot;/static/5e9afc3f8e74b281ee1ec7e1f597902c/fcda8/computer_assgin1_2.png&quot;
+        srcset=&quot;/static/5e9afc3f8e74b281ee1ec7e1f597902c/12f09/computer_assgin1_2.png 148w,
+/static/5e9afc3f8e74b281ee1ec7e1f597902c/e4a3f/computer_assgin1_2.png 295w,
+/static/5e9afc3f8e74b281ee1ec7e1f597902c/fcda8/computer_assgin1_2.png 590w,
+/static/5e9afc3f8e74b281ee1ec7e1f597902c/efc66/computer_assgin1_2.png 885w,
+/static/5e9afc3f8e74b281ee1ec7e1f597902c/c83ae/computer_assgin1_2.png 1180w,
+/static/5e9afc3f8e74b281ee1ec7e1f597902c/6c68b/computer_assgin1_2.png 1888w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;명령어는 08A -&gt; 08B -&gt; 08C 순서대로 읽어진다.&lt;/p&gt;
+&lt;p&gt;08A : 010FA210FB
+08B : 010FA0F08D
+08C : 020FA210FB&lt;/p&gt;
+&lt;p&gt;IAS의 메모리는 총 40bits로 이뤄져있다.
+명령어는 left, right으로 나눠서 두개가 들어가 있고
+각 instruction은 opconde 8비트와 address 12비트로 나눠졌다.&lt;/p&gt;
+&lt;p&gt;(opcode + address) + (opcode + address)&lt;/p&gt;
+&lt;p&gt;위의 명령어(instruction)을 해석해보면&lt;/p&gt;
+&lt;p&gt;010FA210FB&lt;/p&gt;
+&lt;p&gt;= (01 + 0FA) + (21 + 0FB)&lt;/p&gt;
+&lt;p&gt;010FA0F08D&lt;/p&gt;
+&lt;p&gt;= (01 + 0FA) + (0F + 08D)&lt;/p&gt;
+&lt;p&gt;020FA210FB&lt;/p&gt;
+&lt;p&gt;= (02 + 0FA) + (21 + 0FB)&lt;/p&gt;
+&lt;h2 id=&quot;16비트로-주어진-opcode를-이진수로-바꿔서-확인&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#16%EB%B9%84%ED%8A%B8%EB%A1%9C-%EC%A3%BC%EC%96%B4%EC%A7%84-opcode%EB%A5%BC-%EC%9D%B4%EC%A7%84%EC%88%98%EB%A1%9C-%EB%B0%94%EA%BF%94%EC%84%9C-%ED%99%95%EC%9D%B8&quot; aria-label=&quot;16비트로 주어진 opcode를 이진수로 바꿔서 확인 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;16비트로 주어진 opcode를 이진수로 바꿔서 확인&lt;/h2&gt;
+&lt;p&gt;opcode : 01, 02, 21, 0F&lt;/p&gt;
+&lt;p&gt;01 = 0000 0001 = LOAD M(X)&lt;/p&gt;
+&lt;p&gt;02 = 0000 0010 = LOAD -M(X)&lt;/p&gt;
+&lt;p&gt;21 = 0010 0001 = STOR M(X)&lt;/p&gt;
+&lt;p&gt;0F = 0000 1111 = JUMP+ M(X,0:19)&lt;/p&gt;
+&lt;h2 id=&quot;해석&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EC%84%9D&quot; aria-label=&quot;해석 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해석&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;LOAD M(0FA) : Transfer M(X) to the accumulator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;0FA에 있는 값을 accumulator에 복사.&lt;/p&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;STOR M(0FB) : Transfer contents of accumulator to memory location X&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;accumulator에 있는 값을 0FB 메모리에 저장.&lt;/p&gt;
+&lt;ol start=&quot;3&quot;&gt;
+&lt;li&gt;LOAD M(0FA) : Transfer M(X) to the accumulator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;0FA에 있는 값을 accumulator에 복사.&lt;/p&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;JUMP+ M(08D,0:19) : If number in the accumulator is nonnegative, take next instruction from left half of M(X)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;accumulator안의 값이 음수가 아니라면, 다음 명령어 08D의 왼쪽부터 실행해라.&lt;/p&gt;
+&lt;ol start=&quot;5&quot;&gt;
+&lt;li&gt;LOAD -M(0FA) : Transfer -M(X) to the accumulator&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(음수가 아닐때(0과 양수일때)는 이 5,6번째 명령어가 실행되지 않음 = 양수와 0일때 이 명령어가 실행됨)&lt;/p&gt;
+&lt;p&gt;0FA에 있는 값에 -를 붙여서 accumulator에 복사.&lt;/p&gt;
+&lt;ol start=&quot;6&quot;&gt;
+&lt;li&gt;STOR M(0FB) : Transfer contents of accumulator to memory location X&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;accumulator에 있는 값을 0FB 메모리에 저장.&lt;/p&gt;
+&lt;h2 id=&quot;결론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%B0%EB%A1%A0&quot; aria-label=&quot;결론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;결론&lt;/h2&gt;
+&lt;p&gt;address 0FA 안에 있는 값을 절대값을 취해 address 0FB에 넣는 과정의 코드&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Kali Linux 설치 & 환경설정]]></title><description><![CDATA[Kali Linux 설치 1. VirtualBox 설치 다운받기 -> VirtualBox downloads 다운된 dmg 파일 실행  2. Kali Linux 설치 이미지로 설치 -> Kali downloads  Offensive Security V…]]></description><link>https://jeonghye-choi.github.io/installKaliLinux/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/installKaliLinux/</guid><pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;kali-linux-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#kali-linux-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;kali linux 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Kali Linux 설치&lt;/h1&gt;
 &lt;h2 id=&quot;1-virtualbox-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1-virtualbox-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;1 virtualbox 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1. VirtualBox 설치&lt;/h2&gt;
 &lt;p&gt;다운받기 -&gt; &lt;a href=&quot;https://www.virtualbox.org/wiki/Downloads&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;VirtualBox downloads&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;다운된 dmg 파일 실행&lt;/p&gt;
@@ -970,7 +1054,27 @@ Yes
 &lt;h2 id=&quot;후기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%9B%84%EA%B8%B0&quot; aria-label=&quot;후기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;후기&lt;/h2&gt;
 &lt;p&gt;해결되고서 생각해보니 그동안 깔끔하게 지우지 않았던게 원인이였던 것 같다. (uninstaller가 괜히 있는게 아닌게지ㅎㅎ)&lt;/p&gt;
 &lt;p&gt;이 에러는 새로운 분야의 공부를 위한 초기 환경설정 과정에서 만났는데, 첫 한걸음부터 난관이였어서 힘들었지만 그래도 오래걸려도 계속 붙잡고 있었던 보람은 있어서 좋다^^&lt;/p&gt;
-&lt;p&gt;매번 느끼는 거지만 포기하지만 않으면 아무리 허무한 이유때문이여도 얻는건 분명 있는거 같다:)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[\[Error] ![rejected] master -> master (non-fast-forward)]]></title><description><![CDATA[업로드하려는 디렉토리에서 원인 .gitignore 파일 또는 README.md 파일로 인해 발생 해결방법 push하려고 하는 브랜치 앞에 +를 붙여 push push 성공! 참고 솜씨좋은장씨 유용한정보 참고]]></description><link>https://jeonghye-choi.github.io/gitNonFastForward/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/gitNonFastForward/</guid><pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push --set-upstream origin master
+&lt;p&gt;매번 느끼는 거지만 포기하지만 않으면 아무리 허무한 이유때문이여도 얻는건 분명 있는거 같다:)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Computer Architecture(컴퓨터구조), Intro]]></title><description><![CDATA[Intro CPU 내부에서는 명령어가 제어신호(Control Signal Specification)로 바껴서 내부에 있는 ALU, Register 같은 구성장치에 의해 해당 명령어가 실행된다. 내부적으로 어떻게 만들어져있고 어떻게 동작하는지에 대한 …]]></description><link>https://jeonghye-choi.github.io/ComputerArchitecture/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/ComputerArchitecture/</guid><pubDate>Wed, 24 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;intro&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#intro&quot; aria-label=&quot;intro permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Intro&lt;/h1&gt;
+&lt;p&gt;CPU 내부에서는 명령어가 제어신호(Control Signal Specification)로 바껴서 내부에 있는 ALU, Register 같은 구성장치에 의해 해당 명령어가 실행된다.&lt;/p&gt;
+&lt;p&gt;내부적으로 어떻게 만들어져있고 어떻게 동작하는지에 대한 이해가 컴퓨터 구조!&lt;/p&gt;
+&lt;h2 id=&quot;-category&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-category&quot; aria-label=&quot; category permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🌀 Category&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;Basic Concepts and Computer Evolution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Performance Issues&lt;/li&gt;
+&lt;li&gt;A Top-Level View of Computer Function and Interconnection&lt;/li&gt;
+&lt;li&gt;Cache Memory&lt;/li&gt;
+&lt;li&gt;Internal Memory Technology&lt;/li&gt;
+&lt;li&gt;External Memory&lt;/li&gt;
+&lt;li&gt;Input/Output&lt;/li&gt;
+&lt;li&gt;Computer Arithmetic&lt;/li&gt;
+&lt;li&gt;Processor Structure and Function&lt;/li&gt;
+&lt;li&gt;Reduced Instruction Set Computers (RISCs)&lt;/li&gt;
+&lt;li&gt;Control Unit Operation&lt;/li&gt;
+&lt;li&gt;Instruction-Level Parallelism and Superscalar Processors&lt;/li&gt;
+&lt;li&gt;Parallel Processing&lt;/li&gt;
+&lt;li&gt;Multicore Computers&lt;/li&gt;
+&lt;li&gt;General-Purpose Graphic Processing Units&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[\[Error] ![rejected] master -> master (non-fast-forward)]]></title><description><![CDATA[업로드하려는 디렉토리에서 원인 .gitignore 파일 또는 README.md 파일로 인해 발생 해결방법 push하려고 하는 브랜치 앞에 +를 붙여 push push 성공! 참고 솜씨좋은장씨 유용한정보 참고]]></description><link>https://jeonghye-choi.github.io/gitNonFastForward/</link><guid isPermaLink="false">https://jeonghye-choi.github.io/gitNonFastForward/</guid><pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate><content:encoded>&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push --set-upstream origin master
 
 &lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;rejected&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; master -&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; master &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;non-fast-forward&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
 error: failed to push some refs to &lt;span class=&quot;token string&quot;&gt;&apos;https://github.com/SOMJANG-42MARU/MaruKeyword.git&apos;&lt;/span&gt;
