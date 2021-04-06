@@ -14,7 +14,7 @@ keywords:
 
 2. default
 
-3. protexted
+3. protected
 
 4. public
 
