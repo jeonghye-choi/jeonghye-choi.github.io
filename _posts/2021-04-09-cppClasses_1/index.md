@@ -1,5 +1,5 @@
 ---
-title: c++ Classes
+title: c++ Classes, Definition of Classes
 date: 2021-04-09
 tags:
   - c++
@@ -7,8 +7,6 @@ keywords:
   - c++
   - class
 ---
-
-## Definition of Classes
 
 클래스 = 객체들의 집합
 
