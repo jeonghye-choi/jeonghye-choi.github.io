@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://jeonghye-choi.github.io/cppClasses_9/</loc> <lastmod>2021-04-10</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeonghye-choi.github.io/cppClasses_8/</loc> <lastmod>2021-04-10</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeonghye-choi.github.io/cppClasses_7/</loc> <lastmod>2021-04-10</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeonghye-choi.github.io/cppClasses_10/</loc> <lastmod>2021-04-10</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/cppClasses_5/</loc> <lastmod>2021-04-10</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeonghye-choi.github.io/cppClasses_6/</loc> <lastmod>2021-04-09</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/cppClasses_4/</loc> <lastmod>2021-04-09</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/cppClasses_3/</loc> <lastmod>2021-04-09</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeonghye-choi.github.io/cppClasses_2/</loc> <lastmod>2021-04-09</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/cppClasses_1/</loc> <lastmod>2021-04-09</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeonghye-choi.github.io/cppClasses_2/</loc> <lastmod>2021-04-09</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/android/</loc> <lastmod>2021-04-07</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/JavaAccessModifier/</loc> <lastmod>2021-04-06</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/computerAssign_1/</loc> <lastmod>2021-03-28</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/installKaliLinux/</loc> <lastmod>2021-03-26</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/VirtualBoxError/</loc> <lastmod>2021-03-26</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/ComputerArchitecture/</loc> <lastmod>2021-03-24</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeonghye-choi.github.io/gitCurrentBranch/</loc> <lastmod>2021-03-21</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/gitNonFastForward/</loc> <lastmod>2021-03-21</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/gitCommitHistory/</loc> <lastmod>2021-03-21</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://jeonghye-choi.github.io/gitCurrentBranch/</loc> <lastmod>2021-03-21</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/Counting_1/</loc> <lastmod>2021-03-08</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/DiscreteMathematics/</loc> <lastmod>2021-03-03</lastmod> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonghye-choi.github.io/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
