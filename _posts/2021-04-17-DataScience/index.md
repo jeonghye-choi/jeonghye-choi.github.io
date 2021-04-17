@@ -1,44 +1,87 @@
 ---
-title: Data science(데이터 과학), Intro
+title: 데이터 과학 개요
 date: 2021-04-17
 tags:
   - Data Science
 keywords:
   - Data Science
+  - 데이터과학 개요
 ---
 
-데이터 과학(data science)란, 데이터 마이닝(Data Mining)과 유사하게 정형, 비정형 형태를 포함한 다양한 데이터로부터 지식과 인사이트를 추출하는데 과학적 방법론, 프로세스, 알고리즈, 시스템을 동원하는 융합분야입니다.
+## 데이터의 시대, 나의 역할은?
 
-데이터 과학은 데이터를 통해 실제 현상을 이해하고 분석하는데 통계학, 데이터 분석, 기계학습과 연관된 방법론을 통합하는 개념으로 정의되기도 합니다.
+IT 기술의 발전은 그 범위를 전 산업과 경제 주체로 확산시키고 있다.
 
-유용한 가치를 지닌 데이터들이 많아지고 있는데, 이 데이터를 이용해서
+사물인터넷 (IoT : Internet of Things)은 세상에 존재하는 모든 것에 센서를 부착해서 관련 데이터를 수집할 수 있게 하는 기술이다.
 
-1 현재 상태를 객관적으로 파악할 수 있고,
+ex) apple watch, google glasses
 
-2 비정상적인 사건을 탐지할 수 있고,
+</br>
 
-3 특정 사건과 형태에 대한 원인을 파악하고 진단을 내릴 수 있고,
+모든 업무가 데이터화 되는 추세 속에서 데이터 기반으로 사고하고 문제를 해결할 수 있는 능력은 큰 차이를 만든다.
 
-4 미래의 사건을 예측할 수 있습니다.
+데이터에 기반한 분석은 어떤 의사 결정권자도 움직일 수 있는 힘을 줄 수 있다.
 
-# Intro
+다양한 데이터를 수집하여 이를 통해 건강, 행복, 인간 관계를 증진하는 데 활용하는 사람들이 급속도로 증가하고 있다.
 
-## 🌀 Category
+**=> 이처럼 데이터의 효과적인 활용은 시장경쟁에서 승리하고, 조직에서 인정 받으며, 자신의 삶을 바꿀 수 있는 힘을 제공한다.**
 
-- [데이터과학 개요](https://jeonghye-choi.github.io/DataScience/)
+## 데이터 과학
 
-- [Tutorial Example](https://jeonghye-choi.github.io/TutorialExample/)
+데이터 과학은 어떤 현상을 정확히 이해하고 효과적인 결정을 내리도록 도와주는 수단이다.
 
-- [데이터 종류](https://jeonghye-choi.github.io/kindOfData/)
+데이터 과학이 조명을 받게 된 것은 '빅데이터'로 대표되는 대용량 데이터의 등장과 이를 활용한 검색 및 추천 등의 데이터 기반 서비스의 등장에 힘입은 바가 크다. 이런 서비스가 일상화되면서, 많은 사람이 데이터의 활용 범위와 위력을 실감하게 된 것이다.
 
-- [기초 통계](https://jeonghye-choi.github.io/basicStatistics/)
+필자는 우선 기술로서의 데이터 과학 보다 사고방식으로서의 데이터 과학을 강조하고 싶다.
 
-- [확률 이론](https://jeonghye-choi.github.io/probabilityTheory/)
+데이터 기반으로 사고하는 방법을 익혀야 한다는 것. 주면에 '데이터화'할 수 있는 현상에 항상 관심을 두고 데이터를 사용해 이를 개선할 수 있도록 지속적으로 고민하는 것을 뜻한다.
 
-- [Python for Data Analysis](https://jeonghye-choi.github.io/PythonForDataAnalysis/)
+또한 새로운 기술이나 제품에 현혹되기보다는 구체적인 목표 달성이나 문제 해결에 초점을 맞추어야 한다. 지금 당면한 문제에 도움을 줄 수 없다면 의미가 없다.
 
-- [기초 시각화](https://jeonghye-choi.github.io/basicVisualization/)
+1. **문제 정의에서 시작하라.**
 
-- [통계적 추론](https://jeonghye-choi.github.io/statisticalReasoning/)
+: 문제 해결에 초점을 맞춘 데이터 과학의 방법론을 제시
 
-- [나이브 베이즈 스팸 필터](https://jeonghye-choi.github.io/NaiveBayesClassifier/)
+2. **스몰 데이터로 시작하라.**
+
+: 스몰데이터가 한계를 드러내는 경유에만 빅데이터를 사용하면 된다.
+
+3. **주변에 있는 도구로 시작하라.**
+
+4. **간단한 분석 기법으로 시작하라**
+
+## 현역 데이터 과학자들의 말
+
+[IT사설: 데이터 엔지니어, 데이터분석가 그리고 데이터 사이언티스트 차이](https://paulsmooth.tistory.com/142)
+
+[데이터 지능 팟캐스트](http://data-intelligence.io/?author=1)
+
+[미국 테크회사로 이직한 사람들](https://brunch.co.kr/brunchbook/changbalpub)
+
+[따라하며 배우는 데이터 과학](https://dataninja.me)
+
+## 데이터화(Datafication)
+
+삶의 모든 측면을 포착해서 그것을 데이터로 바꾸는 과정.
+
+우리는 무심결에 혹은 최소한 수동ㅈ거으로, 인지하고 있든 그렇지 않든 쿠키를 통해서 데이터화 된다.
+
+**"일단 대상을 데이터화하면, 우리는 그것의 사용 목적을 바꾸고 그 정보를 새로운 형식의 가치로 전환할 수 있다."**
+
+## 생활 속 데이터 과학 사례
+
+### 데이터 과학자의 육아 일기
+
+[생활 속 데이터 과학 이야기](https://kauth.kakao.com/oauth/authorize?client_id=e0201caea90cafbb237e250f63a519b5&response_type=code&auto_login=true&redirect_uri=https%3A%2F%2Fbrunch.co.kr%2Fcallback%2Fauth%2Fkakao&scope=&state=aHR0cHM6Ly9icnVuY2guY28ua3IvbWFnYXppbmUvZGF0YXNjaWVuY2U&grant_type=authorization_code)
+
+[데이터 과학자의 육아일기](https://brunch.co.kr/@lifidea/22)
+
+### 강남 출근길에 판교/정자역에 내릴 사람 예측하기
+
+[데이터야 놀자2017, 강남 출근길에 판교/정자역에 내릴 사람 예측하기](https://www.slideshare.net/ssuser2fe594/2107-80754131)
+
+## 참고 & 출처
+
+- Doing Data Science
+
+- 헬로 데이터 과학(김진영/한빛미디어)
