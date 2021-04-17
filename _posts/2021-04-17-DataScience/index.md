@@ -25,20 +25,20 @@ keywords:
 
 ## 🌀 Category
 
-- [데이터과학 개요]()
+- [데이터과학 개요](https://jeonghye-choi.github.io/DataScience/)
 
-- [Tutorial Example]()
+- [Tutorial Example](https://jeonghye-choi.github.io/TutorialExample/)
 
-- [데이터 종류]()
+- [데이터 종류](https://jeonghye-choi.github.io/kindOfData/)
 
-- [기초 통계]()
+- [기초 통계](https://jeonghye-choi.github.io/basicStatistics/)
 
-- [확률 이론]()
+- [확률 이론](https://jeonghye-choi.github.io/probabilityTheory/)
 
-- [Python for Data Analysis]()
+- [Python for Data Analysis](https://jeonghye-choi.github.io/PythonForDataAnalysis/)
 
-- [기초 시각화]()
+- [기초 시각화](https://jeonghye-choi.github.io/basicVisualization/)
 
-- [통계적 추론]()
+- [통계적 추론](https://jeonghye-choi.github.io/statisticalReasoning/)
 
-- [나이브 베이즈 스팸 필터]()
+- [나이브 베이즈 스팸 필터](https://jeonghye-choi.github.io/NaiveBayesClassifier/)
