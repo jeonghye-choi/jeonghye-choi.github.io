@@ -16,9 +16,9 @@ keywords:
 
 생성자는 두 개의 단계로 구성되어 있는데,
 
-1 전역변수, 지역변수, 힙 등 객체를 위한 메모리 공간 할당
+1. 전역변수, 지역변수, 힙 등 객체를 위한 메모리 공간 할당
 
-2 메모리 공간을 초기화하기 위한 초기화 함수가 자동으로 호출된다.
+2. 메모리 공간을 초기화하기 위한 초기화 함수가 자동으로 호출된다.
 
 따라서, 객체가 생성될 때, 초기상태가 있어야한다.
 
@@ -28,19 +28,19 @@ keywords:
 
   클래스와 이름이 같고 return type이 없다.
 
-  ```cpp
-  class Rectangle {
-      int leftTopX, leftTopY;
-      int rightBottomX, rightBottomY;
-  public:
-      Rectangle(int x1, int y1, int x2, int y2){
-          leftTopX = x1;
-          leftTopY = y1;
-          rightBottomX = x2;
-          rightBottomY = y2;
-      }
-  }
-  ```
+```cpp
+class Rectangle {
+    int leftTopX, leftTopY;
+    int rightBottomX, rightBottomY;
+public:
+    Rectangle(int x1, int y1, int x2, int y2){
+        leftTopX = x1;
+        leftTopY = y1;
+        rightBottomX = x2;
+        rightBottomY = y2;
+    }
+}
+```
 
 - 생성자 호출
 
@@ -131,7 +131,6 @@ int main(){
     delete pR2;
     delete pR4;
 }
-
 ```
 
 ### Default constructor
